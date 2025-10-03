@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Air Jordan Museum</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">Air Jordan Museum</a>
+        <button
+          class="navbar-toggler bg-danger"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#collection">Collection</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#history">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+   
+    <header class="banner position-relative text-center" style="height: 80vh">
+      <picture>
+        <!-- Мобильная картинка -->
+        <source srcset="src/img/bannermobile.jpg" media="(max-width: 768px)" />
+        <!-- Десктопная картинка -->
+        <img
+          src="src/img/banner.webp"
+          alt="Air Jordan Banner"
+          class="w-100 h-100 position-absolute top-0 start-0"
+          style="object-fit: cover; z-index: 1"
+        />
+      </picture>
+
+      <!-- Текст поверх баннера -->
+      <div
+        class="banner-text position-absolute top-50 start-50 translate-middle text-center"
+        style="z-index: 2"
+      >
+        <h1
+          style="
+            color: #ff2b2b;
+            text-shadow: 0 0 10px #ff2b2b, 0 0 20px #ff2b2b, 0 0 40px #ff2b2b;
+          "
+        >
+          Air Jordan Museum
+        </h1>
+        <p style="color: #fff; text-shadow: 0 0 5px #ff2b2b, 0 0 10px #ff2b2b">
+          Explore the iconic sneakers from Jordan 1 to 12
+        </p>
+      </div>
+    </header>
+
+    <!-- Collection -->
+    <section id="collection" class="py-5">
+      <div class="container">
+        <h2 class="section-title">Air Jordan Collection</h2>
+        <div class="row g-4">
+          <!-- Loop for Jordan 1-12 cards -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100">
+              <img
+                src="src/img/jordan1.jpg"
+                class="card-img-top"
+                alt="Air Jordan 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Air Jordan 1</h5>
+                <p class="card-text">
+                  Released in 1985 — the start of sneaker culture. First
+                  signature model of Michael Jordan with Nike.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100">
+              <img
+                src="src/img/jordan2.jpg"
+                class="card-img-top"
+                alt="Air Jordan 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Air Jordan 2</h5>
+                <p class="card-text">
+                  1986 — premium Italian materials, elegant design. Less known
+                  but highly collectible.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100">
+              <img
+                src="src/img/jordan3.jpg"
+                class="card-img-top"
+                alt="Air Jordan 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Air Jordan 3</h5>
+                <p class="card-text">
+                  1988 — designed by Tinker Hatfield with iconic elephant print
+                  and visible Air unit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100">
+              <img
+                src="src/img/jordan4.jpg"
+                class="card-img-top"
+                alt="Air Jordan 4"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Air Jordan 4</h5>
+                <p class="card-text">
+                  1989 — iconic silhouette with mesh panels and signature Air
+                  cushioning.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Jordan 5-12 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100">
+              <img
+                src="src/img/jordan5.jpg"
+                class="card-img-top"
+                alt="Air Jordan 5"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Air Jordan 5</h5>
+                <p class="card-text">
+                  1990 — reflective tongue, lace locks, inspired by WWII fighter
+                  planes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100">
+              <img
+                src="src/img/jordan6.jpg"
+                class="card-img-top"
+                alt="Air Jordan 6"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Air Jordan 6</h5>
+                <p class="card-text">
+                  1991 — Michael Jordan won his first NBA championship wearing
+                  these.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100">
+              <img
+                src="src/img/jordan7.jpg"
+                class="card-img-top"
+                alt="Air Jordan 7"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Air Jordan 7</h5>
+                <p class="card-text">
+                  1992 — Olympic Dream Team style, inspired by African tribal
+                  patterns.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100">
+              <img
+                src="src/img/jordan8.jpg"
+                class="card-img-top"
+                alt="Air Jordan 8"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Air Jordan 8</h5>
+                <p class="card-text">
+                  1993 — bold straps, flashy design, strong support for ankles.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100">
+              <img
+                src="src/img/jordan9.jpg"
+                class="card-img-top"
+                alt="Air Jordan 9"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Air Jordan 9</h5>
+                <p class="card-text">
+                  1994 — inspired by MJ’s global reach; visible on international
+                  courts.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100">
+              <img
+                src="src/img/jordan10.jpg"
+                class="card-img-top"
+                alt="Air Jordan 10"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Air Jordan 10</h5>
+                <p class="card-text">
+                  1994 — career achievements engraved on the sole.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100">
+              <img
+                src="src/img/jordan11.jpg"
+                class="card-img-top"
+                alt="Air Jordan 11"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Air Jordan 11</h5>
+                <p class="card-text">
+                  1995 — patent leather, iconic on-court and off-court style.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100">
+              <img
+                src="src/img/jordan12.jpg"
+                class="card-img-top"
+                alt="Air Jordan 12"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Air Jordan 12</h5>
+                <p class="card-text">
+                  1996 — elegant, durable, power on court, used in NBA finals.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- History Section -->
+    <section id="history" class="py-5">
+      <div class="container">
+        <h2 class="section-title">Jordan History & Legacy</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="info-box">
+              <h5>1985 - The Beginning</h5>
+              <p>
+                The Air Jordan line started with Jordan 1, revolutionizing
+                basketball shoes and streetwear culture.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info-box">
+              <h5>1991 - First Championship</h5>
+              <p>
+                Jordan won his first NBA title wearing Air Jordan 6, cementing
+                the shoes in history.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info-box">
+              <h5>Global Influence</h5>
+              <p>
+                From the court to fashion streets worldwide, Air Jordans became
+                a symbol of culture.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Air Jordan</h2>
+        <p>
+          Air Jordan is more than sneakers — it's a cultural icon. Designed for
+          Michael Jordan, each model combines innovation, style, and history.
+          The line influenced sports, street fashion, and global culture for
+          decades.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Air Jordan Museum. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
